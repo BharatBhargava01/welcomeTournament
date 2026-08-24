@@ -202,7 +202,7 @@ app.get('*', (req, res) => {
   }
   res.sendFile(path.join(__dirname, 'dist', 'index.html'), (err) => {
     if (err) {
-      res.send("Khelo SAU '26 Express API Server is running!");
+      res.send("SAU welcome tournament '26 Express API Server is running!");
     }
   });
 });
